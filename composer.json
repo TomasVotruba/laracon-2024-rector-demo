@@ -1,5 +1,12 @@
 {
+    "name": "laracon-2024/rector-demo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
     "require-dev": {
+        "php": "^7.2",
         "rector/rector": "^0.19.5",
         "symplify/easy-coding-standard": "^12.1"
     }
