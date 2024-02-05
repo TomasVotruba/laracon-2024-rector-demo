@@ -10,9 +10,11 @@ return RectorConfig::configure()
     ])
     // version based on composer or specific arg
     // example 1
-    ->withPhpSets();
+    ->withPhpSets()
 
-    // example 2
-    // ->withPreparedSets(typeDeclarations: true);
+    // example 2 - @todo switch local PHP to 8.0
+
+    // ->withPreparedSets(typeDeclarations: true)
     // new for step by step integration
-    // ->withTypeCoverageLevel(25);
+    // ->withTypeCoverageLevel(25)
+;

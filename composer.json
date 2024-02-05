@@ -6,7 +6,7 @@
         }
     },
     "require": {
-        "php": "^7.2"
+        "php": "^8.0"
     },
     "require-dev": {
         "rector/rector": "^0.19.7"
