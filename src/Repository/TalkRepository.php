@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controller;
+namespace App\Repository;
 
 use App\ValueObject\Talk;
 use DateTime;
 
-class ConferenceController
+class TalkRepository
 {
     public function showLastDayTalks()
     {

@@ -2,11 +2,13 @@
 
 namespace App\Controller;
 
-class CustomRuleDispatchController
+class LoadingController
 {
     public function showLastDayTalks()
     {
         // example #4 - changed in Laravel 10
-        dispatch_now('some.command');
+        dispatch_now('talks_being_loaded');
+
+        // ...
     }
 }
