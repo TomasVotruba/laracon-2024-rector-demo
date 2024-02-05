@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Utils\Rector\Rector;
 
 use PhpParser\Node;
+use PhpParser\Node\Name;
 use Rector\Rector\AbstractRector;
 use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
 use Symplify\RuleDocGenerator\ValueObject\RuleDefinition;
@@ -34,7 +35,6 @@ CODE_SAMPLE
      */
     public function getNodeTypes(): array
     {
-        // @todo select node type
         return [Node\Expr\FuncCall::class];
     }
 
