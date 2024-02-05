@@ -10,7 +10,7 @@ return RectorConfig::configure()
     ])
     // example 1 - upgrade PHP
     // version based on composer or specific arg
-    ->withPhpSets()
+    // ->withPhpSets()
 
     // example 2 - @todo switch local PHP to 8.0
 
@@ -20,5 +20,16 @@ return RectorConfig::configure()
 
     // example 3 - removing dead code
     // remove ValueObject unused property
-    ->withDeadCodeLevel(35)
+    // ->withDeadCodeLevel(35)
+
+    // example 4 - dispatch func call rename
+    // create custom rule + register here
+    // ->withRules([
+    //     \Utils\Rector\Rector\DispatchNowToSyncRector::class,
+    // ])
+
+    // example 5 - make use of community packages
+    ->withSets([
+        \RectorLaravel\Set\LaravelSetList::LARAVEL_100,
+    ]);
 ;

@@ -7,6 +7,6 @@ class CustomRuleDispatchController
     public function showLastDayTalks()
     {
         // example #4 - changed in Laravel 10
-        \dispatch_now('some.command');
+        dispatch_now('some.command');
     }
 }

@@ -9,6 +9,13 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "rector/rector": "^0.19.7"
+        "rector/rector": "^0.19.7",
+        "driftingly/rector-laravel": "^0.40.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Utils\\Rector\\": "utils/rector/src",
+            "Utils\\Rector\\Tests\\": "utils/rector/tests"
+        }
     }
 }
