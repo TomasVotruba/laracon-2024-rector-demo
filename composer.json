@@ -6,11 +6,10 @@
         }
     },
     "require": {
-        "php": "^8.0"
+        "php": "^7.2"
     },
     "require-dev": {
-        "rector/rector": "^0.19.7",
-        "driftingly/rector-laravel": "^0.40.0"
+        "rector/rector": "^0.19.7"
     },
     "autoload-dev": {
         "psr-4": {
