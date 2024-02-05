@@ -29,7 +29,7 @@ return RectorConfig::configure()
     // ])
 
     // example 5 - make use of community packages
-    ->withSets([
-        \RectorLaravel\Set\LaravelSetList::LARAVEL_100,
-    ]);
+    // ->withSets([
+    //    \RectorLaravel\Set\LaravelSetList::LARAVEL_100,
+    // ]);
 ;
