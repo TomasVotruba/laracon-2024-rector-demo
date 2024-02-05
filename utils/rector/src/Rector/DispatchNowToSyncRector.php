@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Utils\Rector\Rector;
 
 use PhpParser\Node;
+use PhpParser\Node\Expr\FuncCall;
 use PhpParser\Node\Name;
 use Rector\Rector\AbstractRector;
 use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
@@ -35,11 +36,11 @@ CODE_SAMPLE
      */
     public function getNodeTypes(): array
     {
-        return [Node\Expr\FuncCall::class];
+        return [FuncCall::class];
     }
 
     /**
-     * @param Node\Expr\FuncCall $node
+     * @param FuncCall $node
      */
     public function refactor(Node $node): ?Node
     {
