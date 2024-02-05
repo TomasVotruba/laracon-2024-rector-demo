@@ -22,7 +22,7 @@
 
 4. Create a custom Rector rule
     * Create a rule
-    * Hook into a node function
+    * Hook into a `FuncCall` node function
     * Rename the node function
 
 5. Make use of Laravel extension package 
