@@ -6,11 +6,14 @@ final class Talk
 {
     private $name;
     private $start;
+    private $isActive;
 
     public function __construct(string $name, \DateTimeInterface $start)
     {
         $this->name = $name;
         $this->start = $start;
+
+        $this->isActive = true;
     }
 
     public function getName()
@@ -21,5 +24,10 @@ final class Talk
     public function getStart()
     {
         return $this->start;
+    }
+
+    private function getIsActive(): bool
+    {
+        return $this->isActive;
     }
 }

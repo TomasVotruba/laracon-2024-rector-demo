@@ -11,14 +11,14 @@
 
 2. Type coverage
     * Add return types
-    * Add property types based on constructor or `setUp()`
+    * Add property types based on constructor
     * Infer param types for private methods
-    * Show `withTypeCoverageLevel()` coming soon
+    * Show `withTypeCoverageLevel()` (coming soon)
 
 3. Dead code removal
     * Remove unused properties
     * Remove unused foreach elements
-    * Show `withDeadCodeLevel()` coming soon
+    * Show `withDeadCodeLevel()` (coming soon)
 
 4. Create a custom Rector rule
     * Create a rule
