@@ -21,9 +21,9 @@ return RectorConfig::configure()
 
     // example 4 - dispatch func call rename
     // create custom rule + register here
-     ->withRules([
-         \Utils\Rector\Rector\DispatchNowToSyncRector::class,
-     ])
+//     ->withRules([
+//         \Utils\Rector\Rector\DispatchNowToSyncRector::class,
+//     ])
 
     // @todo switch local PHP to 8.2
     // example 5 - make use of community packages
