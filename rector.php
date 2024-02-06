@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 use Rector\Config\RectorConfig;
 
 return RectorConfig::configure()
@@ -10,7 +8,7 @@ return RectorConfig::configure()
     ])
     // example 1 - upgrade PHP
     // version based on composer or specific arg
-    // ->withPhpSets()
+    ->withPhpSets()
 
     // example 2 - @todo switch local PHP to 8.0
 
